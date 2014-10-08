@@ -1,0 +1,156 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+body{
+  background: #fff;
+  color: #000;
+}
+
+a, 
+a:hover, 
+a:active{
+  color: #fff;
+  text-decoration: none;
+}
+
+.mast{
+  height: 100%;
+  height: 100vh;
+  background: #F8F8F8;
+}
+
+.logo{
+  color: #000;
+  font-family: 'Segoe ui';
+  font-weight: 300;
+  font-size: 24px;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+
+.heading,
+.tag-line{
+   margin: 0;
+}
+
+.heading{
+  font-size: 108px;
+  margin-bottom: 5px;
+}
+
+.tag-line{
+  font-size: 16px;
+}
+
+.blue{
+  color: #d9d9d9;
+}
+
+.download-link{
+  background: #000;
+}
+
+.flex-container{
+  display: -wekbit-flex;
+  display: -moz-flex;
+  display: flex;
+}
+
+.flex-justify-space-between{
+  justify-content: space-between;
+}
+
+.flex-absolute-centered{
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-form{
+  width: 350px;
+  padding: 15px;
+}
+
+.frame{
+  max-width: 600px;
+}
+
+.flex-fill-parent{
+  height: 100%;
+  width: 100%;
+}
+
+.vertical-divider{
+  height: 100%;
+  border-right:1px solid #f1f1f1;
+  max-height: 400px;
+}
+
+.form-control,
+.form-control:hover,
+.form-control:active,
+.form-control:focus{
+  box-shadow: none;
+  border-radius: 16px;
+}
+
+.form-control{
+  box-shadow: none;
+  font-size: 18px;
+  font-weight: 300;
+  height: 48px;
+  padding: 12px;
+}
+
+.flex-elastic{
+  flex: 1;
+}
+
+.form-control:active,
+.form-control:focus{
+  border:1px solid #000;
+}
+
+.btn-primary{
+  background: #343434;
+  height: 48px;
+}
+
+.btn-primary:hover, 
+.btn-primary:active, 
+.btn-primary:focus{
+  outline: 0px;
+  background: #000;
+}
+
+.sign-up-form hr{
+  margin-top: 72px;
+  margin-bottom: 40px;
+}
+
+.form-or{
+  width: 40px;
+  height: 40px;
+  background: #f8f8f8;
+  color: #000;
+  position: relative;
+  margin:0px auto;
+  margin-bottom: -92px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.text-centered{
+  text-align: center;
+}
+
+.head{
+  font-family: 'Segoe UI';
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.twitter-blue{
+  background: darken(skyblue, 25%);
+}
