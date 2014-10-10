@@ -2,6 +2,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
+@import "website-font.scss";
+
 body{
   font-family: 'Lato', sans-serif;
   background: #fff;
@@ -154,7 +156,8 @@ a:active{
 }
 
 .social-icon{
-  padding: 20px;
+  padding: 14px 0px;
+  text-align: center;
   width: 76px;
   height: 76px;
   font-size: 18px;
@@ -162,19 +165,41 @@ a:active{
   color: #fff;
   font-size: 36px;
 }
-.twitter{
-  background: #4099ff;
+
+.icon-emo-thumbsup{
+  margin-right: 16px;
 }
 
-.facebook{
-  background: #3b5998;
+.feature-slide{
+  text-align: center;
+  max-width: 400px;
+  margin: 60px auto 10px;
 }
 
-.microsoft{
-  background: darken(orange, 5%);
+.feature-label{
+  font-size: 24px;
+}
+.feature-content{
+  font-size: 14px;
 }
 
-.google-plus{
+.promo{
+  font-size: 20px;
+  font-weight: 300;
+  margin: 15px 0;
+}
+
+.icon-android{
+  background: #A4C639;
+}
+
+.icon-windows{
+  background: #2E8DEF;
+  text-align: left;
+  padding-left: 8px;
+}
+
+.icon-chrome{
   background: #d34836;
 }
 

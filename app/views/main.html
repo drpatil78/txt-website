@@ -11,18 +11,22 @@
           </div>
         </div>
         <div rn-carousel rn-carousel-indicator rn-carousel-auto-slide="5" class="carousel-of-feature">
-          <div ng-repeat="feature in awesomeThings"><h2 class="feature" ng-bind="feature"></h2></div>
+          <div ng-repeat="feature in awesomeThings" class="feature-slide">
+            <h2 class="feature-label" ng-bind="feature.label"></h2>
+            <p class="feature-content" ng-bind="feature.descri"></p>
+          </div>
         </div>
       </div>
 
       <div class="vertical-divider"></div>
       <div class="frame">
         <div class="sign-up-form">
+          <h2 class="promo"><i class="icon-emo-thumbsup"></i><span>Available on the store near you</span></h2>
           <div class="flex-container flex-space-between">
-            <div class="social-icon fa fa-twitter twitter"></div>
-            <div class="social-icon fa fa-windows microsoft"></div>
-            <div class="social-icon fa fa-google-plus google-plus"></div>
-            <div class="social-icon fa fa-facebook facebook"></div>
+            <div class="social-icon icon-android"></div>
+            <div class="social-icon icon-appstore"></div>
+            <div class="social-icon icon-windows"></div>
+            <div class="social-icon icon-chrome"></div>
           </div>
           <div class="form-or">OR</div>
           <hr />
@@ -33,7 +37,7 @@
           <div class="form-group">
             <button type="password" placeholder="Phone Number" class="btn btn-primary form-control">Start Texting</button>
           </div>
-          <p class="text-centered">Don't have an account, just enter your email and desired password.</p>
+          <p class="text-centered">We will not disclose your number &amp; but instead drop you a link to download the app :D</p>
         </div>
       </div>
     
