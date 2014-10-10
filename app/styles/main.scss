@@ -1,9 +1,7 @@
-$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
-@import "website-font.scss";
 
+@import "website-font.scss";
 body{
   font-family: 'Lato', sans-serif;
   background: #fff;
@@ -147,6 +145,7 @@ a:active{
 .btn-primary:active, 
 .btn-primary:focus{
   outline: 0px;
+  border: 0px;
   background: #000;
 }
 
